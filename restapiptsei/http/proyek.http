@@ -1,0 +1,43 @@
+### Tambah data
+POST http://localhost:8080/proyek
+Content-Type: application/json
+
+{
+    "namaProyek": "Majalaya",
+    "client": "Eko",
+    "tglMulai": "2024-08-16T09:00:00",
+    "tglSelesai": "2024-08-20T17:00:00",
+    "pimpinanProyek": "Sandhika",
+    "keterangan": "",
+    "lokasi": [
+        {
+            "id": 10
+        }
+    ]
+}
+
+### Ambil data
+GET http://localhost:8080/proyek
+Content-Type: application/json
+
+### Update data
+PUT http://localhost:8080/proyek/15
+Content-Type: application/json
+
+{
+    "namaProyek": "Waduk Gede Utara",
+    "client": "Eko",
+    "tglMulai": "2024-08-16T09:00:00",
+    "tglSelesai": "2024-08-20T17:00:00",
+    "pimpinanProyek": "Sandhika",
+    "keterangan": "",
+    "lokasi": [
+        {
+            "id": 14
+        }
+    ]
+}
+
+### Hapus data
+DELETE http://localhost:8080/proyek/15
+Content-Type: application/json

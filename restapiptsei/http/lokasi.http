@@ -1,0 +1,29 @@
+### Tambah data
+POST http://localhost:8080/lokasi
+Content-Type: application/json
+
+{
+    "namaLokasi": "Majalaya",
+    "negara": "Indonesia",
+    "provinsi": "Jawa Barat",
+    "kota": "Bandung"
+}
+
+### Ambil data
+GET http://localhost:8080/lokasi
+Content-Type: application/json
+
+### Update data
+PUT http://localhost:8080/lokasi/2
+Content-Type: application/json
+
+{
+    "namaLokasi": "Waduk Gede Utara",
+    "negara": "Indonesia",
+    "provinsi": "Jawa Barat",
+    "kota": "Bandung"
+}
+
+### Hapus data
+DELETE http://localhost:8080/lokasi/11
+Content-Type: application/json
