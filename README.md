@@ -15,7 +15,7 @@ documentation <u>REST API</u> and <u>Web</u> using Framework Spring-Boot JAVA fo
 
 ## Website
 
-Menggunakan `Codeigniter 3` dan `mysql`
+Menggunakan Frameworok `Codeigniter 3` PHP dan `mysql`
 
 - Instalasi :
 
@@ -36,6 +36,8 @@ Menggunakan `Codeigniter 3` dan `mysql`
 ## REST API
 
 Menggunakan Framework `Spring-Boot` JAVA
+
+LINK POSTMAN PUBLIC : [postman](https://documenter.getpostman.com/view/30143195/2sA3s7kpw6)
 
 - instalasi :
 
